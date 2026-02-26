@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "notebooks"
+name = "datamask"
 version = "0.1.0"
 dependencies = [
     "pyspark",
@@ -13,4 +13,5 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
 
