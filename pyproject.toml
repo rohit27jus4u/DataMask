@@ -3,9 +3,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my_package"
+name = "src"
 version = "0.1.0"
 dependencies = [
     "pyspark",
     "pandas"
+
 ]
